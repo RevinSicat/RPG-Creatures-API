@@ -1,0 +1,61 @@
+/*Global Selectors*/
+body, html {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #121417;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+}
+/*Div Selectors*/
+.main-div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    overflow: hidden;
+}
+.search-div {
+    background-color: #23272a;
+    padding: 16px;
+    border-radius: 12px;
+    border: 2px solid #0f0f0f;
+    flex-shrink: 0;
+}
+.main-details-div {
+    width: 40%;
+}
+.details-div {
+    display: flex;
+    gap: 16px;
+    flex: 1;
+    overflow: hidden;
+}
+.stats-details-div {
+    flex: 1;
+}
+.main-details-div, .stats-details-div {
+    background-color: #23272a;
+    padding: 16px;
+    border-radius: 12px;
+    border: 2px solid #0f0f0f;
+    overflow-y: auto;
+}
+/*Elements Selectors*/
+.search-div input, .search-div button {
+    margin-top: 8px;
+    margin-right: 8px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+.search-div button {
+    cursor: pointer;
+}
+
+

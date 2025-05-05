@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RPG Creature API</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="search-div">
+            <h1>RPG Creature API</h1>
+            <p>Search for Creature Name or ID:</p>
+            <input id="search-input" required/>
+            <button id="search-button">Search</button>
+            <button id="clear-button">Clear</button>
+        </div>
+        <div class="details-div">  
+            <div class="main-details-div">
+                <p id="creature-name">Creature Name: </p>
+                <p id="creature-id">Creature ID: </p>
+                <p id="weight">Weight: </p>
+                <p id="height">Height: </p>
+                <div id="types">Types: </div>
+                <div id="special-name"></div>
+                <div id="special-description"></div>
+            </div>
+            <div class="stats-details-div">
+                <p>Stats:</p>
+                <hr>
+                <table>
+                    <tr>
+                        <td><p>HP</p></td><td id="hp">HP stat</td>
+                    </tr>
+                    <tr>
+                        <td><p>Attack</p></td><td id="attack">attack stat</td>
+                    </tr>
+                    <tr>
+                        <td><p>Defense</p></td><td id="defense">defense stat</td>
+                    </tr>
+                    <tr>
+                        <td><p>Special Attack</p></td><td id="special-attack">special attack stat</td>
+                    </tr>
+                    <tr>
+                        <td><p>Special Defense</p></td><td id="special-defense">special defense stat</td>
+                    </tr>
+                    <tr>
+                        <td><p>Speed</p></td><td id="speed">speed stat</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
