@@ -17,35 +17,57 @@
         </div>
         <div class="details-div">  
             <div class="main-details-div">
-                <p id="creature-name">Creature Name: </p>
-                <p id="creature-id">Creature ID: </p>
-                <p id="weight">Weight: </p>
-                <p id="height">Height: </p>
-                <div id="types">Types: </div>
+                <P>Creature Details:</P>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="detail-label">Creature Name:</td>
+                        <td id="creature-name" class="detail-data"></td>
+                    </tr>
+                    <tr>
+                        <td class="detail-label">Creature ID:</td>
+                        <td id="creature-id" class="detail-data"></td>
+                    </tr>
+                    <tr>
+                        <td class="detail-label">Weight:</td>
+                        <td id="weight" class="detail-data"></td>
+                    </tr>
+                    <tr>
+                        <td class="detail-label">Height:</td>
+                        <td id="height" class="detail-data"></td>
+                    </tr>
+                </table>
+                <div id="types"></div>
                 <div id="special-name"></div>
                 <div id="special-description"></div>
             </div>
             <div class="stats-details-div">
-                <p>Stats:</p>
+                <p>Creature Stats:</p>
                 <hr>
                 <table>
                     <tr>
-                        <td><p>HP</p></td><td id="hp">HP stat</td>
+                        <td class="stat-label">HP:</td>
+                        <td id="hp" class="stat-data"></td>
                     </tr>
                     <tr>
-                        <td><p>Attack</p></td><td id="attack">attack stat</td>
+                        <td class="stat-label">Attack:</td>
+                        <td id="attack" class="stat-data"></td>
                     </tr>
                     <tr>
-                        <td><p>Defense</p></td><td id="defense">defense stat</td>
+                        <td class="stat-label">Defense:</td>
+                        <td id="defense" class="stat-data"></td>
                     </tr>
                     <tr>
-                        <td><p>Special Attack</p></td><td id="special-attack">special attack stat</td>
+                        <td class="stat-label">Special Attack:</td>
+                        <td id="special-attack" class="stat-data"></td>
                     </tr>
                     <tr>
-                        <td><p>Special Defense</p></td><td id="special-defense">special defense stat</td>
+                        <td class="stat-label">Special Defense:</td>
+                        <td id="special-defense" class="stat-data"></td>
                     </tr>
                     <tr>
-                        <td><p>Speed</p></td><td id="speed">speed stat</td>
+                        <td class="stat-label">Speed:</td>
+                        <td id="speed" class="stat-data"></td>
                     </tr>
                 </table>
             </div>

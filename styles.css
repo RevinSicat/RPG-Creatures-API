@@ -2,6 +2,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-size: 24px;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -56,6 +57,49 @@ body {
 }
 .search-div button {
     cursor: pointer;
+}
+
+.stats-details-div table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.stat-label, .stat-data {
+    padding: 8px;
+}
+.stat-label {
+    width: 30%;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+.stat-data {
+    width: 70%;
+    word-wrap: break-word;
+}
+
+.main-details-div table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.detail-label, .detail-data {
+    padding: 8px;
+}
+.detail-label {
+    width: 40%;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+.detail-data {
+    width: 60%;
+    word-wrap: break-word;
+}
+@media (max-width: 768px) {
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-size: 16px;
+    }
 }
 
 
